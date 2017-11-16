@@ -7,7 +7,7 @@ Objective is a super minimal design yet pleasing to the eye.
 Any resemblence to the LightTable theme would be accidential
 
 
-![A screenshot of your theme](https://github.com/MarcusE1W/test-theme-ui/screenshot.png)
+![Screenshot](https://github.com/MarcusE1W/test-theme-ui/raw/master/screenshot.png)
 
 Todo:
 - The Project header in the File tree should not be highlighted
