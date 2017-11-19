@@ -1,8 +1,7 @@
 # Light theme
 
-- Atom theme
-- Objective is to have a super minimal design yet pleasing to the eye.
-- Any resemblence to the LightTable theme would be accidential
+- Darkish Atom ui theme that works we with notebooks in changing light situations
+- Idea is to have a super minimal design yet pleasing to the eye.
 
 
 ![Screenshot](https://github.com/MarcusE1W/test-theme-ui/raw/master/screenshot.png)
