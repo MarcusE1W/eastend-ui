@@ -1,28 +1,36 @@
-// Text Colors
-@text-color:           #d9d7ca;
-@text-color-subtle:    @text-color-selected;
-@text-color-highlight: #fafafa;
-@text-color-selected:  #FFD08C;
 
-@text-color-info:    #44959b;
+// UI Variables
+// -------------------
+
+// These are the official UI variables that every UI theme should define.
+// It allows other packages to match your theme.
+
+// Overrides: atom/static/variables/ui-variables.less
+
+// Text Colors
+@text-color:           hsl(0,0%,82%);
+@text-color-subtle:    hsl(0,0%,50%);
+@text-color-highlight: hsl(0,0%,94%);
+@text-color-selected:  hsl(0,0%,100%);
+
+@text-color-info:    hsl(219,  79%, 66%);
 @text-color-success: hsl(140,  44%, 62%);
 @text-color-warning: hsl( 36,  60%, 72%);
 @text-color-error:   hsl(  9, 100%, 64%);
 
 // Background colors
-@background-color-info:    #F16466;//@base-background-color;
+@background-color-info:    hsl(208, 100%, 50%);
 @background-color-success: hsl(160,  70%, 36%);
 @background-color-warning: hsl(32,   60%, 50%);
 @background-color-error:   hsl(0,    70%, 50%);
 
 @background-color-highlight: lighten(@base-background-color, 5%);
-@background-color-selected:  #73604f;
-@app-background-color:          lighten(@base-background-color, 20%);
-
+@background-color-selected:  lighten(@base-background-color, 25%);
+@app-background-color:       darken(@base-background-color, 5%);
 
 // Base colors
-@base-background-color: #444040; // #343131;
-@base-border-color:     @base-background-color;
+@base-background-color: hsl(222,6%,22%);
+@base-border-color:     darken(@base-background-color, 8%);
 
 // Component colors
 @pane-item-background-color: @base-background-color;
@@ -51,31 +59,31 @@
 @tab-bar-background-color:    @base-background-color;
 @tab-bar-border-color:        @base-border-color;
 @tab-background-color:        @tab-bar-background-color;
-@tab-background-color-active: lighten(@tab-bar-background-color, 10%);
+@tab-background-color-active: lighten(@tab-bar-background-color, 25%); //12->
 @tab-border-color:            @base-border-color;
 
 @tree-view-background-color: @base-background-color;
 @tree-view-border-color:     @base-border-color;
 
 // Site colors
-@ui-site-color-1: @background-color-success;
-@ui-site-color-2: @background-color-info;
-@ui-site-color-3: @background-color-warning;
-@ui-site-color-4: #E0A3FD;
-@ui-site-color-5: #FED20C;
+@ui-site-color-1: hsl(208, 100%, 50%); // blue
+@ui-site-color-2: hsl(160,  70%, 42%); // green
+@ui-site-color-3: hsl(32,   60%, 50%); // orange
+@ui-site-color-4: #D831B0;             // pink
+@ui-site-color-5: #EBDD5B;             // yellow
 
 // Sizes
-@font-size: 14px;
-@input-font-size: 16px;
+@font-size: 14px;  // 12->13
+@input-font-size: 15px;
 
 @disclosure-arrow-size: 12px;
 
 @component-padding: 10px;
 @component-icon-padding: 5px;
 @component-icon-size: 16px;
-@component-line-height: 30px;
+@component-line-height: 25px;
 
-@tab-height: 50px;
+@tab-height: 50px;  // 30->50
 
 // Misc
 @component-border-radius: 2px;
