@@ -1,7 +1,7 @@
-# Light theme
+# East End theme
 
 - Darkish Atom ui theme that works well with notebooks in changing light situations
-- Idea is to have a super minimal design yet pleasing to the eye.
+- Idea is to have a simple design yet pleasing to the eye.
 
 
 ![Screenshot](https://github.com/MarcusE1W/test-theme-ui/raw/master/screenshot.png)
