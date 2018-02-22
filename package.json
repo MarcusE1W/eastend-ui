@@ -7,7 +7,7 @@
     "ui",
     "theme"
   ],
-  "repository": "https://github.com/MarcusE1W/light-ui",
+  "repository": "https://github.com/MarcusE1W/eastend-ui",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
