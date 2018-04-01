@@ -2,14 +2,16 @@
 
 - The dea is to have a simple design that works well on a notebook in different light conditions.
 - Darkish Atom ui theme that works well with notebooks in changing light situations
-- [East End syntax](https://atom.io/themes/east-end-syntax)
+- Works particular well with [East End syntax](https://atom.io/themes/east-end-syntax)
 
 
 ![Screenshot - East End](https://github.com/MarcusE1W/test-theme-ui/raw/master/screenshot2.png)
+
 With syntax theme [East End](https://atom.io/themes/east-end-syntax)
 
 
 ![Screenshot - Monokai](https://github.com/MarcusE1W/test-theme-ui/raw/master/screenshot.png)
+
 With syntax theme Monokai
 
 Todo:
