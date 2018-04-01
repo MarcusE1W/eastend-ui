@@ -10,11 +10,31 @@
   border-right: 1px solid @base-border-color;
 }
 
-.tree-view {
-  color: @text-color;
-  background-color: @tree-view-background-color;
+// hides project tab in tree-view (who uses this?)
+// .atom-dock-inner {
+//   .pane .list-inline {
+//     .tab {
+//       .title:before {
+//         display: none;
+//       }
+//     }
+//   }
+// }
 
-  .list-item.selected {
-    color: @text-color-selected;
+// .item-views {
+//     .tree-view-root {
+//       padding-left: 16px;
+//       padding-right: 0;
+//       min-width: inherit;
+//   }
+
+
+  .tree-view {
+    color: @text-color;
+    background-color: @tree-view-background-color;
+
+    .list-item.selected {
+      color: @text-color-selected;
+    }
   }
-}
+// }
