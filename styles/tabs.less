@@ -1,3 +1,4 @@
+// East End UI
 
 // Tabs
 // -------------------
@@ -9,13 +10,17 @@
   background-color: @tab-bar-background-color;
 //  border-bottom: 1px solid @base-border-color;
 
+
   .tab {
     color: @text-color;
     height: @tab-height;
     line-height: @tab-height;
     font-size: @font-size;
-  //  border-right: 1px solid @tab-border-color;
+
+    //  border-right: 1px solid @tab-border-color;
     background-color: @tab-background-color;
+
+    // the selected tab
     &.active {
       color: @text-color-selected;
       background-color: @tab-background-color-active;
@@ -55,3 +60,31 @@
     }
   }
 }
+
+
+// // Custom tabs --------------
+//
+// .tab-bar .tab.active {
+//   &[data-type$="Editor"],
+//   &[data-type$="AboutView"],
+//   &[data-type$="TimecopView"],
+//   &[data-type$="StyleguideView"],
+//   &[data-type="MarkdownPreviewView"] {
+//     color: @tab-text-color-editor;
+//     background-color: @tab-background-color-editor; // Match syntax background color
+//   }
+// }
+
+// Custom tabs --------------
+// to set the colour of the Treeview header, the "Project"
+.tab-bar .tab.active {
+  &[data-type="TreeView"] {
+    color: @text-color-selected;
+    background-color: @tab-background-color; // Match syntax background color
+  }
+}
+
+
+// treeview header
+// <ul class="list-inline tab-bar inset-panel" is="atom-tabs" tabindex="-1" location="left"><li is="tabs-tab" class="tab sortable" data-type="TreeView"><div class="title">Project</div></li></ul>
+// <div class="title">Project</div>

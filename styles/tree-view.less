@@ -18,22 +18,30 @@
     color: @text-color;
     background-color: @tree-view-background-color;
 
+
     .project-root.project-root {
       &:before {
         height: @tab-height;
         background-clip: padding-box;
+        background: @tree-view-background-color;
+        background-color: @tree-view-background-color;
+      }
       }
       & > .header .name {
         line-height: @tab-height;
-      }
     }
 
-    // Selected state
+    // Selected file background
     .selected:before {
-      background: @button-background-color-selected;
+      background: @tab-background-color-active;
     }
 
-    // Focus + selected state
+    // selected file test color
+    .list-item.selected {
+      color: @text-color;
+    }
+
+    // treeview in Focus + selected file state
     &:focus {
       .selected.list-item > .name, // files
       .selected.list-nested-item > .list-item > .name, // folders
@@ -45,7 +53,4 @@
       }
     }
 
-    .list-item.selected {
-      color: @text-color;
-    }
   }
