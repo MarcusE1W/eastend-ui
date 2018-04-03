@@ -1,4 +1,6 @@
 
+// East End UI
+
 // Tree View
 // -------------------
 
@@ -10,31 +12,40 @@
   border-right: 1px solid @base-border-color;
 }
 
-// hides project tab in tree-view (who uses this?)
-// .atom-dock-inner {
-//   .pane .list-inline {
-//     .tab {
-//       .title:before {
-//         display: none;
-//       }
-//     }
-//   }
-// }
-
-// .item-views {
-//     .tree-view-root {
-//       padding-left: 16px;
-//       padding-right: 0;
-//       min-width: inherit;
-//   }
 
 
   .tree-view {
     color: @text-color;
     background-color: @tree-view-background-color;
 
+    .project-root.project-root {
+      &:before {
+        height: @tab-height;
+        background-clip: padding-box;
+      }
+      & > .header .name {
+        line-height: @tab-height;
+      }
+    }
+
+    // Selected state
+    .selected:before {
+      background: @button-background-color-selected;
+    }
+
+    // Focus + selected state
+    &:focus {
+      .selected.list-item > .name, // files
+      .selected.list-nested-item > .list-item > .name, // folders
+      .selected.list-nested-item > .header:before { // arrow icon
+        color: @text-color-selected;
+      }
+      .selected:before {
+        background: @background-color-selected;
+      }
+    }
+
     .list-item.selected {
-      color: @text-color-selected;
+      color: @text-color;
     }
   }
-// }

@@ -1,6 +1,6 @@
 # East End theme
 
-- The dea is to have a simple design that works well on a notebook in different light conditions.
+- The idea is to have a simple design that works well on a notebook in different light conditions.
 - Darkish Atom ui theme that works well with notebooks in changing light situations
 - Works particular well with [East End syntax](https://atom.io/themes/east-end-syntax)
 
@@ -15,8 +15,8 @@ With syntax theme [East End](https://atom.io/themes/east-end-syntax)
 With syntax theme Monokai
 
 Todo:
-- The project header in the file tree should not be highlighted if the treeview is not in use
-- The symbol of the git status could be shown instead of the standard file symbol. That would allow to show the file title in normal text colour.
-- Only show selected file in treeview as highlighted in treeview if treeview is activated
+- [ ] The project header in the file tree should not be highlighted if the treeview is not in use
+- [ ] The symbol of the git status could be shown instead of the standard file symbol. That would allow to show the file title in normal text colour.
+- [x] Only show selected file in treeview as highlighted in treeview if treeview is activated
 
 Any pointers as to how to resolve this are welcome.
